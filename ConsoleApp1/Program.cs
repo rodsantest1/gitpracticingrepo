@@ -12,7 +12,12 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World");
 
-            Console.WriteLine($"1+2={1+2}");
+            Console.WriteLine(AddNumbers());
+        }
+
+        public static string AddNumbers()
+        {
+            return $"1+2={1 + 2}";
         }
     }
 }
